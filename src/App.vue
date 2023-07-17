@@ -1,10 +1,11 @@
 <script setup lang="ts">
-
+import Base from './components/test.vue'
 </script>
 
 <template>
   <div>
     <h1>vite + vue3 + ts</h1>
+    <Base />
   </div>
 </template>
 
