@@ -7,6 +7,8 @@
   <Child3 v-model:pageNo="pageNo" v-model:pageSize="pageSize" />
   <hr />
   <Child4 />
+  <hr />
+  <Ref />
 </template>
 
 <script lang="ts" setup>
@@ -14,6 +16,7 @@ import Child from './child.vue'
 import Child2 from './child2.vue'
 import Child3 from './child3.vue'
 import Child4 from './child4.vue'
+import Ref from './ref.vue'
 import { ref } from 'vue'
 
 const num = ref<number>(1)
