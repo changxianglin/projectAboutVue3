@@ -9,6 +9,7 @@
   <Child4 />
   <hr />
   <Ref />
+  <hr />
 </template>
 
 <script lang="ts" setup>
