@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Base from './components/index.vue'
+import Base from './components/child6.vue'
 </script>
 
 <template>
