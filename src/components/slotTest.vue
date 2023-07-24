@@ -1,6 +1,10 @@
 <template>
   <p>slot</p>
-  <TestSlot />
+  <TestSlot>
+    <div>
+      <pre>大江东去浪淘尽，千古风流人物。</pre>
+    </div>
+  </TestSlot>
 </template>
 
 <script lang="ts" setup>
